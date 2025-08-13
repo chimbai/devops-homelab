@@ -1,4 +1,4 @@
-# DEVOPS CI/CD Pipeline with Jenkins and Gitea
+# DevOps CI/CD Pipeline with Jenkins and Gitea
 The following diagram illustrates the CI/CD workflow for this project, integrating Gitea as the Git repository and Jenkins as the automation server.
 
 Workflow:
