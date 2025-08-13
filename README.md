@@ -10,7 +10,7 @@ Workflow:
 
 This setup enables a fully automated continuous integration and deployment process, reducing manual work and ensuring faster, more reliable releases.
 
-![CI/CD Flowchart](CICD Flow.png)
+![CI/CD Flowchart](flowchart.png)
 
 ## Prerequisites
 
