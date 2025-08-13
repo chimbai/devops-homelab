@@ -1,7 +1,16 @@
-# devops-homelab
-A starter devops tool host in your own personal homelab
+# CI/CD Pipeline with Jenkins and Gitea
+The following diagram illustrates the CI/CD workflow for this project, integrating Gitea as the Git repository and Jenkins as the automation server.
 
-# Complete Guide: Setting up Gitea & Jenkins with Docker
+Workflow:
+1. Code Commit – Developers push code changes to the Gitea repository.
+2. Webhook Trigger – Gitea sends a webhook notification to Jenkins upon every push.
+3. Pipeline Execution – Jenkins fetches the latest code and runs the pipeline defined in the Jenkinsfile.
+4. Build & Test – The pipeline builds the project, runs automated tests, and prepares artifacts.
+5. Deploy – If the build and tests pass, Jenkins deploys the application to the target environment.
+
+This setup enables a fully automated continuous integration and deployment process, reducing manual work and ensuring faster, more reliable releases.
+
+![CI/CD Flowchart](CICD Flow.png)
 
 ## Prerequisites
 
